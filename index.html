@@ -1,17 +1,18 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Guitar Tuner</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🎸 Guitar Tuner</h1>
+  <h1>🎵 Chromatic Tuner</h1>
+  <button id="start-btn">Start Tuner</button>
   <canvas id="needle" width="300" height="300"></canvas>
   <p>Note: <span id="note">--</span></p>
   <p>Frequency: <span id="freq">--</span> Hz</p>
+  <p>Audio Level: <span id="level">--</span></p>
 
   <script src="tuner.js"></script>
 </body>
